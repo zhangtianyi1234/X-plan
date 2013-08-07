@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="content container">
+<div class="auth-form">
+<form method="post" action=""><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='eZmDwCoTf6qg9BodVM3Kcz7jyhtKebhs'/></div>
+<h2>Register <small>for an account</small></h2>
+<hr/>
+<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='eZmDwCoTf6qg9BodVM3Kcz7jyhtKebhs'/></div>
+<div class="control-group">
+<label for="id_username" class="control-label">Username* </label>
+<div class="controls">
+<input name="username" maxlength="30" type="text" class="required span3" id="id_username"/>
+</div>
+</div>
+<div class="control-group">
+<label for="id_email" class="control-label">E-mail* </label>
+<div class="controls">
+<input name="email" maxlength="75" type="text" class="required span3" id="id_email"/>
+</div>
+</div>
+<div class="control-group">
+<label for="id_password1" class="control-label">Password* </label>
+<div class="controls">
+<input id="id_password1" type="password" class="required span3" name="password1"/>
+</div>
+</div>
+<div class="control-group">
+<label for="id_password2" class="control-label">Password (again)* </label>
+<div class="controls">
+<input id="id_password2" type="password" class="required span3" name="password2"/>
+</div>
+</div>
+<button class="btn btn-primary" type="submit"><i class="icon-unlock"></i> Register</button>
+<p>Already have an account? <a href="/accounts/login/">Login</a></p>
+</form>
+</div>
+</div> 
+
+{% endblock %}

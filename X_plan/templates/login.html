@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="content container">
+<div class="auth-form">
+<form method="post" action="/accounts/login/"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='eZmDwCoTf6qg9BodVM3Kcz7jyhtKebhs'/></div>
+<h2 class="auth-form-heading">Login <small>to your account</small></h2>
+<hr/>
+<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='eZmDwCoTf6qg9BodVM3Kcz7jyhtKebhs'/></div>
+<div class="control-group">
+<label for="id_username" class="control-label">Username* </label>
+<div class="controls">
+<input id="id_username" class="span3" type="text" name="username" maxlength="30"/>
+</div>
+</div>
+<div class="control-group">
+<label for="id_password" class="control-label">Password* </label>
+<div class="controls">
+<input id="id_password" type="password" name="password" class="span3"/>
+</div>
+</div>
+<button class="btn btn-primary" type="submit"><i class="icon-ok icon-white"></i> Login</button>
+<p>Forgot your password?<a href="/accounts/password/reset/"> Reset it</a> <br/>Need an new account? <a href="/accounts/register/">Register Here</a></p>
+<input type="hidden" name="next" value=""/>
+</form>
+</div>
+</div> 
+{% endblock %}
+
+

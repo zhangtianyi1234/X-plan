@@ -1,0 +1,142 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="/static/css/codesters.css" rel="stylesheet" type="text/css">
+<style type="text/css">@media (min-width: 980px) {body{padding-top:40px;}}</style>
+</head>
+
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">X_plan学习拓展计划</a>
+      <div class="nav-collapse">
+
+<ul class="nav">
+    
+<li><a href="/"><i class="icon-home"><span></i> 网站首页</span></a></li>
+<li><a href="/forum"><i class="icon-globe"<span></i> 最新资讯</span></a></li>
+<li><a href="/class"><span><i class="icon-list-alt"></i> 资源管理</span></a></li><li>
+
+</ul>
+<a class="btn btn-small btn-success" href="/login"><i class="  icon-ok-sign icon-white"></i> 用户登录</a>
+<a class="btn btn-small btn-danger" href="/register"><i class=" icon-user icon-white"></i> 用户注册</a>
+<form class="navbar-search pull-right" method="get" action="/search/">
+<input type="text" class="search-query" placeholder="输入查找信息" name="q">
+</form>
+<style>
+#userinfo.btn-toolbar {margin-top:0;margin-bottom:0;font-size:14px;}
+#userinfo.btn-toolbar a{vertical-align:middle;}
+#userinfo img {
+-webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+        border-radius: 3px;
+}
+#userinfo [class^="icon-"], #userinfo [class*=" icon-"], #userinfo [class^="icon-"]:hover, #userinfo [class*=" icon-"]:hover{
+    vertical-align:middle;
+    margin-bottom:3px;
+}
+</style>
+</div> 
+</div> 
+</div> 
+</div> 
+<div class="content container">
+<div class="home-content">
+<div class="row-fluid">
+<div class="span12 jumbotron mast-head">
+<h1>X_plan学习拓展计划</h1>
+<p class="lead">学而不思则罔 思而不学则殆</p>
+<a href="/accounts/register/" class="btn btn-success btn-large"> 开始学习<i class=" icon-share-alt icon-white"></i> </a>
+</div>
+</div>
+<div class="row-fluid">
+<div class="marketing marketing-head">
+<h2>在这里将收获什么？</h2>
+<div class="media">
+<img src="/static/img/main-universities.jpg" height=128 width=128 alt="free university course" class="pull-left img-circle"/>
+<div class="media-body">
+<h4 class="media-heading">强化知识记忆，打牢知识基础</h4>
+合抱之木，生于毫末；千里之行，始于足下；九层之台，起于垒土。通过循序渐进的学习，强化最新的课堂知识，夯实基础，为梦想名校启航。
+</div>
+</div>
+<div class="media">
+<img src="/static/img/main-tutorials.jpg" height=128 width=128 alt="best tutorals" class="pull-left img-circle"/>
+<div class="media-body">
+<h4 class="media-heading">方便快捷的网络教学互动</h4>
+学不为学，知之通晓为知之，最新IT技术使得学习更方便快捷，寓教于乐，学而不倦。强化知识学习，寓教于乐。知之为知之，不知为不知！
+</div>
+</div>
+<div class="media">
+<img src="/static/img/main-books.jpg" height=128 width=128 alt="most recommended cse books and ebooks" class="pull-left img-circle"/>
+<div class="media-body">
+<h4 class="media-heading">紧跟课堂教学，辅助强化学习</h4>
+紧跟教学老师备课内容，辅助上课老师分析学生情况，精准定位错误点和错误集群，有针对性的查漏补缺。使得学生真真正正掌握知识。
+</div>
+</div>
+<div class="media">
+<img src="/static/img/main-help.jpg" height=128 width=128 alt="colleaborate on learning" class="pull-left img-circle"/>
+<div class="media-body">
+<h4 class="media-heading">课程互动学习，同龄人同步进步</h4>
+紧跟教学老师上课教授内容，不脱离实际教学，通过做题情况统计汇总，分析学生学习共性，助力学生更快成长。
+</div>
+</div>
+</div>
+</div>
+<div class="btn-group">
+<a href="/" class="btn btn-danger register-button btn-large">了解更多</a>
+<a href="/accounts/register/" class="btn btn-success btn-large">开始学习<i class=" icon-share-alt icon-white"></i> </a>
+</div>
+</div>
+</div>
+</div>
+</div> 
+<div class="footer">
+<div class="container">
+<div class="span6">
+<div class="span6">
+<ul class="footer-links unstyled">
+<li><a href="/">关于</a></li>
+<li><a href="/">开发者信息</a></li>
+<li><a href="/">使用指南</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<script src="/static/js/jquery.min.js" type="text/javascript"></script>
+<script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28214247-1']);
+  _gaq.push(['_setDomainName', 'codesters.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"www.cloudflare.com/email-protection"==a.substr(7 ,35)){s='';j=43;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+<a id="scrollUp" href="#top" title="" style="position: fixed; z-index: 2147483647; display: block;"></a>
+
+</script>
+
+</body>
+</html>
+
